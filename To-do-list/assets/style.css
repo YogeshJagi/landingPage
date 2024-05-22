@@ -1,0 +1,206 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body
+{
+	background:#bdc9c1;
+}
+.container
+{
+	margin:50px auto;
+	width:600px;
+	background:#a7b0ab;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	border-radius:15px;
+	align-items:center;
+	padding:20px 10px;
+	justify-content: center;
+}
+.header
+{
+	margin-top:10px;
+	color:#4c524e;
+}
+
+.input-container 
+{
+
+	width:100%;
+	padding-left:45px;
+}
+
+.input-container form
+{
+
+	width:90%;
+	height:40px;
+	display:flex;
+	border-radius:18px;
+	overflow:hidden;
+}
+.input-container form input
+{
+	width:87%;
+	height:100%;
+	padding:10px;
+	padding-left:25px;
+	font-size:20px;
+	font-weight:700;
+	border:none;
+	outline:none;
+}
+.input-container form button
+{
+	width:13%;
+	background:#ed4c3e;
+	border:none;
+	font-size:18px;
+	font-weight:500;
+	color:#fff;
+}
+.tast-container
+{
+
+	width:90%;
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+
+}
+
+.tast-container table{
+	 border-radius: 10px;
+    background:#c5d6cc;
+
+}
+
+.tast-container table tr{
+	background: #abbdb2;;
+	display: flex;
+	overflow: hidden;
+	height: 40px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgb(185, 183, 183);
+	
+}
+
+.tast-container table tr td{
+	
+	display: flex;
+	align-items: center;
+	
+}
+.tast-container table tr td a{
+	margin: 5px;
+}
+.tast-container table tr td a i{
+	
+	padding: 5px;
+	color: red;
+	
+}
+
+
+
+
+.tast-container table tr td:nth-child(1){
+	
+	padding: 10px;
+	padding-left: 20px;
+
+	align-items: center;
+	height: 100%;
+/*	background: red;*/
+}
+.tast-container table tr td:nth-child(2){
+	
+	padding: 10px;
+	padding-left: 20px;
+	flex-grow: 1;
+	align-items: center;
+	height: 100%;
+/*	background: red;*/
+}
+
+
+
+.tast-container table tr td a:nth-child(1) i{
+	
+     color: rgb(111, 27, 145);
+}
+
+
+#popo
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:5;
+	background:#bdc9c1;
+	backdrop-filter:blur(5px);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+
+#popo form
+{
+
+
+	height: 30%;
+	width: 30%;
+	background:#96a59b;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px #69756d;
+	
+	
+
+}
+
+#popo form input
+{
+
+	width: 90%;
+	height: 40px;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background:  #e5e9e6;
+}
+
+#popo form button
+{
+	width: 70%;
+	height: 40px;
+	font-size: 20px;
+	padding: 10px;
+	background: rgb(32, 13, 202);
+	border: none;
+	border-radius: 10px;
+	color:  #e7e3e3;;
+
+}
+#popo form h2{
+	color: #e7e3e3;
+}
+
+
+
+
+
+
